@@ -17,15 +17,34 @@
     </string-array>
     
     <string-array name="workshop_name">
-        <item>Auto 2000</item>
-        <item>Bengkel Mobil Raja Service</item>
+
         <item>CV. Star Jaya Motor</item>
-        <item>MADY Auto Repair</item>
+        <item>Bengkel Mobil Raja Service</item>
+        <item>MADY Auti Repair</item>
         <item>Palem Motor Service</item>
+        <item>Volvo Servis Vota Motor</item>
         <item>Bengkel Pro Q</item>
+        <item>Bengkel Mobil BMW</item>
+        <item>Bengkel Resmi Peugeot</item>
+        <item>Honda Pondok Pinang</item>
+        <item>ASTRIDO Toyota Fatmawati</item>
+        <item>Auto2000 Tebet Sahardjo</item>
+        <item>Autp2000 Lenteng Agung</item>
+        <item>Bengkel Toyota Faqih Mobil</item>
+        <item>Honda Tendean</item>
+        <item>Honda Pondok Indah</item>
     </string-array>
 
     <string-array name="workshop_price">
+        <item>(Rp...............)</item>
+        <item>(Rp...............)</item>
+        <item>(Rp...............)</item>
+        <item>(Rp...............)</item>
+        <item>(Rp...............)</item>
+        <item>(Rp...............)</item>
+        <item>(Rp...............)</item>
+        <item>(Rp...............)</item>
+        <item>(Rp...............)</item>
         <item>(Rp...............)</item>
         <item>(Rp...............)</item>
         <item>(Rp...............)</item>
@@ -44,6 +63,7 @@
     </string-array>
 
     <string-array name="list_mobil">
+        <item>Honda</item>
         <item>Toyota</item>
         <item>Mercedez Benz</item>
         <item>BMW</item>
