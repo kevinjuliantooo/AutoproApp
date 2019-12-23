@@ -1,0 +1,173 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.autoproapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <!-- <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> -->
+14    <uses-permission android:name="android.permission.INTERNET" /> <!-- <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" /> -->
+14-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:5:5-67
+14-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:5:22-64
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:9:5-81
+15-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:10:5-79
+16-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Include required permissions for Google Maps API to run. -->
+17-->[com.google.android.libraries.places:places:2.0.0] C:\Users\62813\.gradle\caches\transforms-2\files-2.1\d1a496b246294c059d97cb54f7856325\places-2.0.0\AndroidManifest.xml:10:5-76
+17-->[com.google.android.libraries.places:places:2.0.0] C:\Users\62813\.gradle\caches\transforms-2\files-2.1\d1a496b246294c059d97cb54f7856325\places-2.0.0\AndroidManifest.xml:10:22-73
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\62813\.gradle\caches\transforms-2\files-2.1\d90d0047cdeb5c53cec7f3b243768272\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\62813\.gradle\caches\transforms-2\files-2.1\d90d0047cdeb5c53cec7f3b243768272\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+19
+20    <uses-feature
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\62813\.gradle\caches\transforms-2\files-2.1\d90d0047cdeb5c53cec7f3b243768272\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+21        android:glEsVersion="0x00020000"
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\62813\.gradle\caches\transforms-2\files-2.1\d90d0047cdeb5c53cec7f3b243768272\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+22        android:required="true" />
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\62813\.gradle\caches\transforms-2\files-2.1\d90d0047cdeb5c53cec7f3b243768272\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+23
+24    <application
+24-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:12:5-49:19
+25        android:allowBackup="true"
+25-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:13:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.1.0] C:\Users\62813\.gradle\caches\transforms-2\files-2.1\2f93e882e947d9becf72b03450ed2960\core-1.1.0\AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:icon="@mipmap/ic_launcher"
+28-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:14:9-43
+29        android:label="@string/app_name"
+29-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:15:9-41
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:16:9-54
+31        android:supportsRtl="true"
+31-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:17:9-35
+32        android:testOnly="true"
+33        android:theme="@style/AppTheme" >
+33-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:18:9-40
+34        <activity android:name="com.example.autoproapp.ProfileActivity" />
+34-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:19:9-62
+34-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:19:19-50
+35        <activity android:name="com.example.autoproapp.SignupActivity" />
+35-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:20:9-52
+35-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:20:19-49
+36        <activity android:name="com.example.autoproapp.LoginActivity" />
+36-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:21:9-51
+36-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:21:19-48
+37        <activity android:name="com.example.autoproapp.DerekActivity" />
+37-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:22:9-51
+37-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:22:19-48
+38        <activity android:name="com.example.autoproapp.AutoCleaningActivity" />
+38-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:23:9-58
+38-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:23:19-55
+39        <activity android:name="com.example.autoproapp.ServiceFinishedActivity" />
+39-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:24:9-61
+39-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:24:19-58
+40        <activity android:name="com.example.autoproapp.ServiceProcessActivity" />
+40-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:25:9-60
+40-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:25:19-57
+41        <activity android:name="com.example.autoproapp.BookingCodeActivity" />
+41-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:26:9-57
+41-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:26:19-54
+42        <activity android:name="com.example.autoproapp.PaymentActivity" />
+42-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:27:9-53
+42-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:27:19-50
+43        <activity android:name="com.example.autoproapp.TermAndConditionActivity" />
+43-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:28:9-62
+43-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:28:19-59
+44        <activity android:name="com.example.autoproapp.OrderTimeAndLocationActivity" />
+44-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:29:9-66
+44-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:29:19-63
+45        <activity android:name="com.example.autoproapp.TuneUpActivity" />
+45-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:30:9-52
+45-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:30:19-49
+46        <activity android:name="com.example.autoproapp.ConsultationServiceActivity" />
+46-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:31:9-65
+46-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:31:19-62
+47        <activity android:name="com.example.autoproapp.MenuServiceActivity" />
+47-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:32:9-57
+47-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:32:19-54
+48        <activity android:name="com.example.autoproapp.ChooseLocationActivity" />
+48-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:33:9-60
+48-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:33:19-57
+49        <activity android:name="com.example.autoproapp.AutoServiceActivity" />
+49-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:34:9-57
+49-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:34:19-54
+50        <activity android:name="com.example.autoproapp.MainActivity" >
+50-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:35:9-41:20
+50-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:35:19-47
+51            <intent-filter>
+51-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:36:13-40:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:37:17-69
+52-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:37:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:39:17-77
+54-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:39:27-74
+55            </intent-filter>
+56        </activity>
+57        <!-- <activity android:name=".MainActivity" /> -->
+58        <activity android:name="com.example.autoproapp.MainActivity2" />
+58-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:43:9-51
+58-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:43:19-48
+59
+60        <meta-data
+60-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:45:9-47:47
+61            android:name="com.google.android.geo.API_KEY"
+61-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:46:13-58
+62            android:value="@string/map_key" />
+62-->C:\Users\62813\AutoproApp\app\src\main\AndroidManifest.xml:47:13-44
+63
+64        <!-- Autocomplete -->
+65        <activity
+65-->[com.google.android.libraries.places:places:2.0.0] C:\Users\62813\.gradle\caches\transforms-2\files-2.1\d1a496b246294c059d97cb54f7856325\places-2.0.0\AndroidManifest.xml:16:9-23:20
+66            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+66-->[com.google.android.libraries.places:places:2.0.0] C:\Users\62813\.gradle\caches\transforms-2\files-2.1\d1a496b246294c059d97cb54f7856325\places-2.0.0\AndroidManifest.xml:17:13-91
+67            android:exported="false"
+67-->[com.google.android.libraries.places:places:2.0.0] C:\Users\62813\.gradle\caches\transforms-2\files-2.1\d1a496b246294c059d97cb54f7856325\places-2.0.0\AndroidManifest.xml:18:13-37
+68            android:hardwareAccelerated="true"
+68-->[com.google.android.libraries.places:places:2.0.0] C:\Users\62813\.gradle\caches\transforms-2\files-2.1\d1a496b246294c059d97cb54f7856325\places-2.0.0\AndroidManifest.xml:19:13-47
+69            android:label="@string/places_autocomplete_label"
+69-->[com.google.android.libraries.places:places:2.0.0] C:\Users\62813\.gradle\caches\transforms-2\files-2.1\d1a496b246294c059d97cb54f7856325\places-2.0.0\AndroidManifest.xml:20:13-62
+70            android:theme="@style/PlacesAutocompleteThemeOverlay"
+70-->[com.google.android.libraries.places:places:2.0.0] C:\Users\62813\.gradle\caches\transforms-2\files-2.1\d1a496b246294c059d97cb54f7856325\places-2.0.0\AndroidManifest.xml:21:13-66
+71            android:windowSoftInputMode="stateAlwaysVisible|adjustPan" >
+71-->[com.google.android.libraries.places:places:2.0.0] C:\Users\62813\.gradle\caches\transforms-2\files-2.1\d1a496b246294c059d97cb54f7856325\places-2.0.0\AndroidManifest.xml:22:13-71
+72        </activity> <!-- Needs to be explicitly declared on P+ -->
+73        <uses-library
+73-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\62813\.gradle\caches\transforms-2\files-2.1\d90d0047cdeb5c53cec7f3b243768272\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+74            android:name="org.apache.http.legacy"
+74-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\62813\.gradle\caches\transforms-2\files-2.1\d90d0047cdeb5c53cec7f3b243768272\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+75            android:required="false" />
+75-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\62813\.gradle\caches\transforms-2\files-2.1\d90d0047cdeb5c53cec7f3b243768272\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+76
+77        <activity
+77-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\62813\.gradle\caches\transforms-2\files-2.1\a986c25f6c08e3b4b76a5953ed754c96\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+78            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+78-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\62813\.gradle\caches\transforms-2\files-2.1\a986c25f6c08e3b4b76a5953ed754c96\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+79            android:exported="false"
+79-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\62813\.gradle\caches\transforms-2\files-2.1\a986c25f6c08e3b4b76a5953ed754c96\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+80            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+80-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\62813\.gradle\caches\transforms-2\files-2.1\a986c25f6c08e3b4b76a5953ed754c96\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+81
+82        <meta-data
+82-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\62813\.gradle\caches\transforms-2\files-2.1\8b7f795fe589adfd5f53d5960c74948a\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+83            android:name="com.google.android.gms.version"
+83-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\62813\.gradle\caches\transforms-2\files-2.1\8b7f795fe589adfd5f53d5960c74948a\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+84            android:value="@integer/google_play_services_version" />
+84-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\62813\.gradle\caches\transforms-2\files-2.1\8b7f795fe589adfd5f53d5960c74948a\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+85    </application>
+86
+87</manifest>

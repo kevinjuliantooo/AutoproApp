@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.autoproapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" /> -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".DerekActivity" />
+        <activity android:name=".AutoCleaningActivity" />
+        <activity android:name=".ServiceFinishedActivity" />
+        <activity android:name=".ServiceProcessActivity" />
+        <activity android:name=".BookingCodeActivity" />
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".TermAndConditionActivity" />
+        <activity android:name=".OrderTimeAndLocationActivity" />
+        <activity android:name=".TuneUpActivity" />
+        <activity android:name=".ConsultationServiceActivity" />
+        <activity android:name=".MenuServiceActivity" />
+        <activity android:name=".ChooseLocationActivity" />
+        <activity android:name=".AutoServiceActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+<!--        <activity android:name=".MainActivity" />-->
+        <activity android:name=".MainActivity2" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+    </application>
+
+</manifest>

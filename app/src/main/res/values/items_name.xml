@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="product_name">
+        <item>Ahmad Dahlan</item>
+        <item>Ahmad Yani</item>
+    </string-array>
+
+    <string-array name="product_description">
+        <item>Salah seorang ulama dan khatib terkemuka di Masjid Besar Kasultanan Yogyakarta pada masa itu, dan ibu dari K.H. Ahmad Dahlan adalah puteri dari H. Ibrahim yang juga menjabat penghulu Kesultanan Ngayogyakarta Hadiningrat pada masa itu. KH. Ahmad Dahlan telah mempelopori kebangkitan ummat Islam untuk menyadari nasibnya sebagai bangsa terjajah yang masih harus belajar dan berbuat. </item>
+        <item>Jenderal TNI Anumerta Ahmad Yani (juga dieja Achmad Yani; lahir di Purworejo, Jawa Tengah, 19 Juni 1922 – meninggal di Lubang Buaya, Jakarta, 1 Oktober 1965 pada umur 43 tahun) adalah komandan Tentara Nasional Indonesia Angkatan Darat, dan dibunuh oleh anggota Gerakan 30 September saat mencoba untuk menculik dia dari rumahnya.</item>
+    </string-array>
+
+    <string-array name="product_photo">
+        <item>https://upload.wikimedia.org/wikipedia/commons/8/87/Ahmad_Dahlan.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/3/3f/Ahmad_Yani.jpg</item>
+    </string-array>
+    
+    <string-array name="workshop_name">
+        <item>Auto 2000</item>
+        <item>Bengkel Mobil Raja Service</item>
+        <item>CV. Star Jaya Motor</item>
+        <item>MADY Auto Repair</item>
+        <item>Palem Motor Service</item>
+        <item>Bengkel Pro Q</item>
+    </string-array>
+
+    <string-array name="workshop_price">
+        <item>(Rp...............)</item>
+        <item>(Rp...............)</item>
+        <item>(Rp...............)</item>
+        <item>(Rp...............)</item>
+        <item>(Rp...............)</item>
+        <item>(Rp...............)</item>
+    </string-array>
+
+    <string-array name="derek_mobil">
+        <item>Derek MobilIndo</item>
+        <item>Derek Mobil Towing</item>
+        <item>Bhayongbonggroup</item>
+        <item>Mobil Derek 88</item>
+        <item>MX Towing</item>
+        <item>Derek Mobil Abhigel</item>
+    </string-array>
+
+    <string-array name="list_mobil">
+        <item>Toyota</item>
+        <item>Mercedez Benz</item>
+        <item>BMW</item>
+        <item>Suzuki</item>
+        <item>Daihatsu</item>
+        <item>Mitsubisi</item>
+        <item>Nissan</item>
+        <item>KIA</item>
+        <item>Datsun</item>
+        <item>Isuzu</item>
+        <item>Wuling</item>
+    </string-array>
+
+
+</resources>
